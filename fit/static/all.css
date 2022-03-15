@@ -1,0 +1,58 @@
+html {
+  background: #eee;
+  padding: 2rem;
+}
+
+
+nav { 
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+.nav-link {
+  display: flex;
+  float: right;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+nav h1 {
+  flex: auto;
+  margin: 0;
+  color: white;
+}
+header h4 {
+  flex: auto;
+  padding: 2em;
+  font-style: italic;
+  font-weight: bold;
+  color: lightgray;
+}
+div big-image {
+  flex: auto;
+}
+
+/*nav ul li a {
+	align-items: center;
+  float: right;
+  background-color: yellow;
+}*/
+
+article {
+  display: block;
+}
+
+article header div{
+  background-color: lightblue;
+}
+
+article header div div{
+  padding: 1em;
+  font-family: sans-serif;
+
+}
+
+article header div p{
+  padding: 1em;
+  font-family: monospace;
+}

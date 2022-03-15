@@ -1,0 +1,54 @@
+h1 {
+	flex: auto;
+	margin: 0;
+	color: #377ba8;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+form {
+	margin: 1em 0;
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	align-self: start;
+	min-width: 10em;
+}
+
+input[type=submit]:hover {
+	background-color: #377ba8;
+	align-self: start;
+	min-width: 10em;
+	border-radius: 4px;
+}
+
+label { font-weight: bold; margin-bottom: 0.5em; }
+
+
+input[name=username] {
+  width: 50%;
+  background-color: #377ba8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+ 
+}
+
+input[name=password] {
+  width: 50%;
+  background-color: #377ba8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+ 
+}

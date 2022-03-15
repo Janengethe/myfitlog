@@ -1,0 +1,21 @@
+<!-- {% extends 'index.html' %}
+
+{% block header %}
+  <h1>{% block title %}Added "{{ workout['exercise'] }}"{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<article class="workout">
+  <header>
+        <div>
+          <h1>{{ workout['created'].strftime('%d.%m.%y') }}</h1>
+          <div class="about">{{ workout['exercise'] }}</div>
+          <p class="notes">{{ workout['notes'] }}</p>
+        </div>
+        {% if g.user['id'] == workout['user_id'] %}
+          <a class="action" href="{{ url_for('fitlog.update', id=workout['id']) }}">Edit</a>
+          <form action="{{ url_for('fitlog.delete', id=workout['id']) }}" method="post">
+        {% endif %}
+      </header>
+</article>
+{% endblock %} -->
