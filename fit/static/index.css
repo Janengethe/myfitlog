@@ -1,20 +1,26 @@
-html {
-	background: #eee;
-	/*padding: 1rem;*/
-}
-
-body {
-	max-width: 100%;
-	max-height: 100%;
-	margin: 0 auto;
-}
+html body { 
+  background: url(index.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  object-fit: cover;
+ }
 
 div article header h4 {
-	background: #eee;
+	color: seagreen;
+
 }
+
+p {
+	padding-top: 5em;
+	letter-spacing: 6px;
+	text-align: center;
+	font-family: fantasy;
+}
+
 nav { 
 	display: flex;
-	background: #eee;
 	align-items: center;
 	padding: 0 0.5rem;
 }
@@ -22,11 +28,4 @@ nav h1 {
 	flex: auto;
 	margin: 0;
 	color: skyblue;
-}
-
-header {
-
-}
-header div h4 {
-	
 }
