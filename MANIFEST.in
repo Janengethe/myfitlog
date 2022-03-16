@@ -1,0 +1,4 @@
+include fit/schema.sql
+graft fit/static
+graft fit/templates
+global-exclude *.pyc
